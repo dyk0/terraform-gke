@@ -14,8 +14,9 @@ build: ## Build the project
 
 ##@ Testing
 .PHONY: test
-test: clean build ## Build the project
+test: clean build test ## Build the project
 	$(info Building the project)
+	scripts/test.sh
 
 ##@ Helpers
 .PHONY: help

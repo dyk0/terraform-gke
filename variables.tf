@@ -86,7 +86,7 @@ variable "remove_default_node_pool" {
 variable "initial_node_count" {
   type        = "string"
   default     = "1"
-  description = ") The number of nodes to create in this cluster (not including the Kubernetes master)."
+  description = "The number of nodes to create in this cluster (not including the Kubernetes master)."
 }
 
 variable "service_account_id" {
